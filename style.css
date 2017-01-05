@@ -69,6 +69,16 @@ a {
   background-color: #121112;
   padding: 10px;
 }
+
+@media (min-width: 1500px) {
+  #map {
+    width: 80%;
+  }
+  #info {
+    width: 20%;
+  }
+}
+
 h1 {
   color: #e3e3e3;
   text-shadow: 0 0 5px rgba(0,0,0,0.5);
