@@ -153,13 +153,13 @@
       "paint": {
         "line-color": "hsla(0, 15%, 21%, 0.39)",
         "line-blur": 4,
-        "line-width": 6
+        "line-width": 10
       }
     },
     {
       "id": "radar",
       "paint": {
-        "line-color": "hsl(0, 46%, 12%)"
+        "line-color": "rgba(107, 49, 49, 1)"
       },
       "type": "line",
       "source": "composite",
@@ -195,11 +195,11 @@
         ],
         "text-transform": "uppercase",
         "text-size": 12,
-        "symbol-spacing": 100,
+        "symbol-spacing": 50,
         "text-rotation-alignment": "map"
       },
       "paint": {
-        "text-color": "hsl(0, 32%, 21%)",
+        "text-color": "rgba(169, 66, 66, 1)",
         "text-translate": [
           -13,
           0
@@ -235,11 +235,11 @@
         ],
         "text-transform": "uppercase",
         "text-size": 12,
-        "symbol-spacing": 100,
+        "symbol-spacing": 50,
         "text-rotation-alignment": "map"
       },
       "paint": {
-        "text-color": "hsl(0, 32%, 21%)",
+        "text-color": "rgba(169, 66, 66, 1)",
         "text-translate": [
           -10,
           8
@@ -340,8 +340,8 @@
           1,
           1
         ],
-        "line-color": "hsl(0, 3%, 17%)",
-        "line-width": 1.5
+        "line-color": "rgba(29, 24, 24, 1)",
+        "line-width": 2.5
       }
     },
     {
@@ -686,27 +686,12 @@
         "Point"
       ],
       "layout": {
-        "text-size": 12,
+        "text-size": 14,
         "text-transform": "uppercase",
-        "text-font": {
-          "base": 1,
-          "stops": [
-            [
-              7,
-              [
-                "DIN Offc Pro Regular",
-                "Arial Unicode MS Regular"
-              ]
-            ],
-            [
-              8,
-              [
-                "DIN Offc Pro Medium",
-                "Arial Unicode MS Regular"
-              ]
-            ]
-          ]
-        },
+        "text-font": [
+          "DIN Offc Pro Medium",
+          "Arial Unicode MS Regular"
+        ],
         "text-offset": [
           0,
           0
@@ -714,12 +699,14 @@
         "icon-size": 1.3,
         "text-field": "{name}",
         "text-max-width": 10,
-        "text-pitch-alignment": "map"
+        "text-pitch-alignment": "map",
+        "icon-rotation-alignment": "map"
       },
       "paint": {
-        "text-color": "hsl(0, 3%, 32%)",
+        "text-color": "rgba(4, 3, 3, 1)",
         "text-opacity": 1,
-        "icon-opacity": 0.9
+        "icon-opacity": 0.9,
+        "text-translate-anchor": "map"
       }
     },
     {
