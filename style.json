@@ -144,20 +144,6 @@
       }
     },
     {
-      "id": "radar-bg",
-      "type": "line",
-      "source": "composite",
-      "source-layer": "Battle_of_Britain_Radar_Reach",
-      "layout": {
-        "visibility": "visible"
-      },
-      "paint": {
-        "line-color": "hsla(0, 15%, 21%, 0.39)",
-        "line-blur": 4,
-        "line-width": 10
-      }
-    },
-    {
       "id": "radar",
       "paint": {
         "line-color": "rgba(107, 49, 49, 1)"
@@ -196,8 +182,24 @@
         ],
         "text-transform": "uppercase",
         "text-size": 12,
-        "symbol-spacing": 50,
-        "text-rotation-alignment": "map"
+        "symbol-spacing": {
+          "stops": [
+            [
+              6,
+              50
+            ],
+            [
+              7,
+              100
+            ],
+            [
+              7.5,
+              150
+            ]
+          ]
+        },
+        "text-rotation-alignment": "map",
+        "text-padding": 2
       },
       "paint": {
         "text-color": "rgba(169, 66, 66, 1)",
@@ -236,7 +238,22 @@
         ],
         "text-transform": "uppercase",
         "text-size": 12,
-        "symbol-spacing": 50,
+        "symbol-spacing": {
+          "stops": [
+            [
+              6,
+              50
+            ],
+            [
+              7,
+              100
+            ],
+            [
+              7.5,
+              150
+            ]
+          ]
+        },
         "text-rotation-alignment": "map"
       },
       "paint": {
@@ -294,33 +311,9 @@
             ]
           ]
         },
-        "line-width": {
-          "base": 1,
-          "stops": [
-            [
-              7,
-              0.75
-            ],
-            [
-              12,
-              1.5
-            ]
-          ]
-        },
-        "line-opacity": {
-          "base": 1,
-          "stops": [
-            [
-              2,
-              0
-            ],
-            [
-              3,
-              1
-            ]
-          ]
-        },
-        "line-color": "hsl(0, 2%, 18%)"
+        "line-width": 2,
+        "line-opacity": 1,
+        "line-color": "rgba(37, 34, 34, 1)"
       }
     },
     {
