@@ -1,0 +1,774 @@
+{
+  "version": 8,
+  "name": "Battle of Britain",
+  "metadata": {
+    "mapbox:autocomposite": true,
+    "mapbox:type": "default",
+    "mapbox:groups": {},
+    "mapbox:trackposition": false,
+    "maputnik:access_token": "pk.eyJ1IjoibW9yZ2Vua2FmZmVlIiwiYSI6ImNpeGtxZHdjNzAwMWYzMm55ZndncjU4bDQifQ.Q5LZ4ob5FNjReUdmj3c-_w"
+  },
+  "center": [
+    -3.456274563658411,
+    52.31898351738906
+  ],
+  "zoom": 5.781359600157474,
+  "bearing": 0,
+  "pitch": 0,
+  "sources": {
+    "composite": {
+      "url": "mapbox://mapbox.mapbox-streets-v7,morgenkaffee.cixk9lqw9001d32n0gun0hzqx-0wd9a,morgenkaffee.cixk7pmyj001532p66l2q8q9w-5klhf,morgenkaffee.cixke4lmt001a2qnyd9jzif5o-56s5k,morgenkaffee.cixkc73zu000y2wrskryqy0rd-28e01,morgenkaffee.cixjlko75000f2qny2a4kbuz1-19d9l",
+      "type": "vector"
+    },
+    "video-smoke": {
+      "type": "video",
+      "urls": [
+        "https://s3.amazonaws.com/video-map/smoke_and_bombs.mp4"
+      ],
+      "coordinates": [
+        [
+          -13,
+          57
+        ],
+        [
+          10,
+          57
+        ],
+        [
+          10,
+          48
+        ],
+        [
+          -13,
+          48
+        ]
+      ]
+    }
+  },
+  "sprite": "mapbox://sprites/morgenkaffee/cixjlbrf200392rrlmzxufs82",
+  "glyphs": "mapbox://fonts/morgenkaffee/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "layout": {},
+      "paint": {
+        "background-color": "#1D1C1D"
+      }
+    },
+    {
+      "id": "video-smoke",
+      "type": "raster",
+      "source": "video-smoke",
+      "paint": {
+        "raster-contrast": 0.1
+      }
+    },
+    {
+      "id": "water",
+      "type": "fill",
+      "source": "composite",
+      "source-layer": "water",
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "fill-color": "hsl(0, 0%, 0%)",
+        "fill-opacity": 0.3
+      }
+    },
+    {
+      "id": "waterway",
+      "type": "line",
+      "source": "composite",
+      "source-layer": "waterway",
+      "minzoom": 6,
+      "filter": [
+        "any",
+        [
+          "==",
+          "class",
+          "canal"
+        ],
+        [
+          "==",
+          "class",
+          "river"
+        ]
+      ],
+      "layout": {
+        "line-cap": {
+          "base": 1,
+          "stops": [
+            [
+              0,
+              "butt"
+            ],
+            [
+              11,
+              "round"
+            ]
+          ]
+        },
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "hsl(187, 17%, 7%)",
+        "line-width": {
+          "base": 1.3,
+          "stops": [
+            [
+              8.5,
+              0.1
+            ],
+            [
+              20,
+              8
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              8,
+              0
+            ],
+            [
+              8.5,
+              1
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "radar-bg",
+      "type": "line",
+      "source": "composite",
+      "source-layer": "Battle_of_Britain_Radar_Reach",
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": "hsla(0, 15%, 21%, 0.39)",
+        "line-blur": 4,
+        "line-width": 6
+      }
+    },
+    {
+      "id": "radar",
+      "paint": {
+        "line-color": "hsl(0, 46%, 12%)"
+      },
+      "type": "line",
+      "source": "composite",
+      "source-layer": "Battle_of_Britain_Radar_Reach",
+      "layout": {
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "high-level-radar-label",
+      "type": "symbol",
+      "source": "composite",
+      "source-layer": "Battle_of_Britain_Radar_Reach",
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "LineString"
+        ],
+        [
+          "==",
+          "type",
+          "high-level-radar"
+        ]
+      ],
+      "layout": {
+        "text-field": "High Level Radar",
+        "symbol-placement": "line",
+        "text-font": [
+          "DIN Offc Pro Regular",
+          "Arial Unicode MS Regular"
+        ],
+        "text-transform": "uppercase",
+        "text-size": 12,
+        "symbol-spacing": 100,
+        "text-rotation-alignment": "map"
+      },
+      "paint": {
+        "text-color": "hsl(0, 32%, 21%)",
+        "text-translate": [
+          -13,
+          0
+        ],
+        "text-halo-color": "rgba(0, 0, 0, 0)",
+        "text-halo-width": 0
+      }
+    },
+    {
+      "id": "low-level-radar-label",
+      "type": "symbol",
+      "source": "composite",
+      "source-layer": "Battle_of_Britain_Radar_Reach",
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "LineString"
+        ],
+        [
+          "==",
+          "type",
+          "low-level-radar"
+        ]
+      ],
+      "layout": {
+        "text-field": "Low Level Radar",
+        "symbol-placement": "line",
+        "text-font": [
+          "DIN Offc Pro Regular",
+          "Arial Unicode MS Regular"
+        ],
+        "text-transform": "uppercase",
+        "text-size": 12,
+        "symbol-spacing": 100,
+        "text-rotation-alignment": "map"
+      },
+      "paint": {
+        "text-color": "hsl(0, 32%, 21%)",
+        "text-translate": [
+          -10,
+          8
+        ],
+        "text-halo-color": "rgba(0, 0, 0, 0)",
+        "text-halo-width": 0
+      }
+    },
+    {
+      "id": "boundaries",
+      "type": "line",
+      "source": "composite",
+      "source-layer": "admin",
+      "filter": [
+        "all",
+        [
+          "==",
+          "maritime",
+          0
+        ],
+        [
+          "in",
+          "admin_level",
+          2,
+          4
+        ]
+      ],
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
+      "paint": {
+        "line-dasharray": {
+          "base": 1,
+          "stops": [
+            [
+              6,
+              [
+                2,
+                0
+              ]
+            ],
+            [
+              7,
+              [
+                2,
+                2,
+                6,
+                2
+              ]
+            ]
+          ]
+        },
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              0.75
+            ],
+            [
+              12,
+              1.5
+            ]
+          ]
+        },
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        "line-color": "hsl(0, 2%, 18%)"
+      }
+    },
+    {
+      "id": "command-group-border",
+      "type": "line",
+      "source": "composite",
+      "source-layer": "Fighter_Command_Groups_in_Battle",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-dasharray": [
+          1,
+          1
+        ],
+        "line-color": "hsl(0, 3%, 17%)",
+        "line-width": 1.5
+      }
+    },
+    {
+      "id": "sea-label",
+      "type": "symbol",
+      "source": "composite",
+      "source-layer": "Battle_of_Britain_Geo_Names",
+      "minzoom": 3,
+      "maxzoom": 10,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "LineString"
+        ],
+        [
+          "==",
+          "type",
+          "sea"
+        ]
+      ],
+      "layout": {
+        "text-line-height": 1.1,
+        "text-size": {
+          "base": 1,
+          "stops": [
+            [
+              3,
+              12
+            ],
+            [
+              6,
+              16
+            ]
+          ]
+        },
+        "symbol-spacing": {
+          "base": 1,
+          "stops": [
+            [
+              4,
+              100
+            ],
+            [
+              6,
+              400
+            ]
+          ]
+        },
+        "text-font": [
+          "DIN Offc Pro Italic",
+          "Arial Unicode MS Regular"
+        ],
+        "symbol-placement": "line",
+        "visibility": "visible",
+        "text-field": "{name}",
+        "text-letter-spacing": 0.1,
+        "text-max-width": 5
+      },
+      "paint": {
+        "text-color": "hsl(187, 3%, 51%)",
+        "text-halo-blur": 0,
+        "text-opacity": 1
+      }
+    },
+    {
+      "id": "britain-fighter-base",
+      "type": "symbol",
+      "source": "composite",
+      "source-layer": "Battle_of_Britain_Fighter_Base",
+      "filter": [
+        "all",
+        [
+          "all",
+          [
+            "==",
+            "nation",
+            "britain"
+          ],
+          [
+            "==",
+            "type",
+            "fighter_base"
+          ]
+        ],
+        [
+          "in",
+          "$type",
+          "LineString",
+          "Point",
+          "Polygon"
+        ]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "icon-image": "britain-fighter-base-11",
+        "icon-rotation-alignment": "map",
+        "icon-allow-overlap": true,
+        "icon-ignore-placement": true
+      },
+      "paint": {}
+    },
+    {
+      "id": "german-fighter-base",
+      "type": "symbol",
+      "source": "composite",
+      "source-layer": "Battle_of_Britain_Fighter_Base",
+      "filter": [
+        "all",
+        [
+          "all",
+          [
+            "==",
+            "nation",
+            "germany"
+          ],
+          [
+            "==",
+            "type",
+            "fighter_base"
+          ]
+        ],
+        [
+          "in",
+          "$type",
+          "LineString",
+          "Point",
+          "Polygon"
+        ]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "icon-image": "german-fighter-base-11",
+        "icon-size": 1,
+        "icon-allow-overlap": true,
+        "icon-ignore-placement": true,
+        "icon-rotation-alignment": "map"
+      },
+      "paint": {}
+    },
+    {
+      "id": "german-bomber-base",
+      "type": "symbol",
+      "source": "composite",
+      "source-layer": "Battle_of_Britain_Fighter_Base",
+      "filter": [
+        "all",
+        [
+          "all",
+          [
+            "==",
+            "nation",
+            "germany"
+          ],
+          [
+            "==",
+            "type",
+            "bomber_base"
+          ]
+        ],
+        [
+          "in",
+          "$type",
+          "LineString",
+          "Point",
+          "Polygon"
+        ]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "icon-image": "german-bomber-base-15",
+        "icon-size": 1.2,
+        "icon-allow-overlap": true,
+        "icon-ignore-placement": true,
+        "icon-rotation-alignment": "map"
+      },
+      "paint": {}
+    },
+    {
+      "id": "low-level-radar-station",
+      "type": "symbol",
+      "source": "composite",
+      "source-layer": "Battle_of_Britain_Radar_Reach",
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "==",
+          "type",
+          "low-level-radar-station"
+        ]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "icon-image": "radar-station-11",
+        "icon-size": 0.6,
+        "icon-allow-overlap": true,
+        "icon-ignore-placement": true,
+        "icon-rotation-alignment": "map"
+      },
+      "paint": {
+        "icon-opacity": 0.9
+      }
+    },
+    {
+      "id": "high-level-radar-station",
+      "type": "symbol",
+      "source": "composite",
+      "source-layer": "Battle_of_Britain_Radar_Reach",
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "==",
+          "type",
+          "high-level-radar-station"
+        ]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "icon-image": "radar-station-15",
+        "icon-size": 0.6,
+        "icon-allow-overlap": true,
+        "icon-ignore-placement": true,
+        "icon-rotation-alignment": "map"
+      },
+      "paint": {
+        "icon-opacity": 0.9
+      }
+    },
+    {
+      "id": "country",
+      "type": "symbol",
+      "source": "composite",
+      "source-layer": "Battle_of_Britain_Geo_Names",
+      "minzoom": 1,
+      "maxzoom": 14,
+      "filter": [
+        "==",
+        "type",
+        "country"
+      ],
+      "layout": {
+        "text-size": 18,
+        "text-field": "{name}",
+        "text-font": [
+          "DIN Offc Pro Italic",
+          "Arial Unicode MS Regular"
+        ],
+        "text-offset": [
+          0,
+          0
+        ],
+        "icon-size": 1,
+        "text-max-width": 7,
+        "text-transform": "uppercase"
+      },
+      "paint": {
+        "text-color": "hsl(0, 0%, 0%)",
+        "text-opacity": 1,
+        "text-halo-color": "hsla(0, 2%, 22%, 0.7)",
+        "text-halo-blur": 1,
+        "icon-opacity": 0.9,
+        "text-halo-width": 0.5
+      }
+    },
+    {
+      "id": "bombed-city",
+      "type": "symbol",
+      "source": "composite",
+      "source-layer": "Towns_Bombed_in_Battle_of_Britai",
+      "minzoom": 1,
+      "maxzoom": 14,
+      "layout": {
+        "text-size": 14,
+        "icon-image": "fire-station-15",
+        "icon-rotation-alignment": "map",
+        "text-font": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              [
+                "DIN Offc Pro Regular",
+                "Arial Unicode MS Regular"
+              ]
+            ],
+            [
+              8,
+              [
+                "DIN Offc Pro Medium",
+                "Arial Unicode MS Regular"
+              ]
+            ]
+          ]
+        },
+        "text-offset": [
+          0,
+          -0.6
+        ],
+        "icon-size": 1.4,
+        "text-anchor": "bottom",
+        "text-pitch-alignment": "viewport",
+        "text-field": "{name}",
+        "text-max-width": 7
+      },
+      "paint": {
+        "text-color": "hsl(0, 0%, 65%)",
+        "text-opacity": 1,
+        "text-halo-color": "rgba(0,0,0,0.7)",
+        "text-halo-width": 1,
+        "text-halo-blur": 1,
+        "icon-opacity": 0.9
+      }
+    },
+    {
+      "id": "fighter-command-group",
+      "type": "symbol",
+      "source": "composite",
+      "source-layer": "Fighter_Command_Groups_in_Battle",
+      "minzoom": 1,
+      "maxzoom": 14,
+      "filter": [
+        "==",
+        "$type",
+        "Point"
+      ],
+      "layout": {
+        "text-size": 12,
+        "text-transform": "uppercase",
+        "text-font": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              [
+                "DIN Offc Pro Regular",
+                "Arial Unicode MS Regular"
+              ]
+            ],
+            [
+              8,
+              [
+                "DIN Offc Pro Medium",
+                "Arial Unicode MS Regular"
+              ]
+            ]
+          ]
+        },
+        "text-offset": [
+          0,
+          0
+        ],
+        "icon-size": 1.3,
+        "text-field": "{name}",
+        "text-max-width": 10,
+        "text-pitch-alignment": "map"
+      },
+      "paint": {
+        "text-color": "hsl(0, 3%, 32%)",
+        "text-opacity": 1,
+        "icon-opacity": 0.9
+      }
+    },
+    {
+      "id": "city",
+      "type": "symbol",
+      "source": "composite",
+      "source-layer": "Battle_of_Britain_Geo_Names",
+      "minzoom": 1,
+      "maxzoom": 14,
+      "filter": [
+        "==",
+        "type",
+        "city"
+      ],
+      "layout": {
+        "text-size": 12,
+        "text-field": "{name}",
+        "text-font": {
+          "base": 1,
+          "stops": [
+            [
+              7,
+              [
+                "DIN Offc Pro Regular",
+                "Arial Unicode MS Regular"
+              ]
+            ],
+            [
+              8,
+              [
+                "DIN Offc Pro Medium",
+                "Arial Unicode MS Regular"
+              ]
+            ]
+          ]
+        },
+        "text-offset": [
+          0,
+          0
+        ],
+        "icon-size": 1,
+        "text-max-width": 7
+      },
+      "paint": {
+        "text-color": "hsl(0, 0%, 65%)",
+        "text-opacity": 1,
+        "text-halo-color": "rgba(0,0,0,0.7)",
+        "text-halo-width": 1,
+        "text-halo-blur": 1,
+        "icon-opacity": 0.9
+      }
+    }
+  ],
+  "created": "2017-01-04T23:44:08.876Z",
+  "id": "cixjlbrf200392rrlmzxufs82",
+  "modified": "2017-01-05T14:20:55.928Z",
+  "owner": "morgenkaffee",
+  "draft": false
+}
