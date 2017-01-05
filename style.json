@@ -439,7 +439,7 @@
       ],
       "layout": {
         "visibility": "visible",
-        "icon-image": "british-fighter-base-11",
+        "icon-image": "british-fighter-base-15",
         "icon-rotation-alignment": "map",
         "icon-allow-overlap": true,
         "icon-ignore-placement": true,
@@ -447,7 +447,8 @@
         "icon-rotate": {
           "type": "identity",
           "property": "angle"
-        }
+        },
+        "icon-size": 0.9
       },
       "paint": {}
     },
@@ -556,7 +557,7 @@
       "layout": {
         "visibility": "visible",
         "icon-image": "radar-station-11",
-        "icon-size": 0.6,
+        "icon-size": 1,
         "icon-allow-overlap": true,
         "icon-ignore-placement": true,
         "icon-rotation-alignment": "viewport"
@@ -586,7 +587,7 @@
       "layout": {
         "visibility": "visible",
         "icon-image": "radar-station-15",
-        "icon-size": 0.6,
+        "icon-size": 0.8,
         "icon-allow-overlap": true,
         "icon-ignore-placement": true,
         "icon-rotation-alignment": "viewport"
