@@ -9,12 +9,12 @@
     "maputnik:access_token": "pk.eyJ1IjoibW9yZ2Vua2FmZmVlIiwiYSI6ImNpeGtxZHdjNzAwMWYzMm55ZndncjU4bDQifQ.Q5LZ4ob5FNjReUdmj3c-_w"
   },
   "center": [
-    -3.456274563658411,
-    52.31898351738906
+    5.5,
+    51.8
   ],
-  "zoom": 5.781359600157474,
-  "bearing": 0,
-  "pitch": 0,
+  "zoom": 5.74,
+  "bearing": -48,
+  "pitch": 53,
   "sources": {
     "composite": {
       "url": "mapbox://mapbox.mapbox-streets-v7,morgenkaffee.cixk9lqw9001d32n0gun0hzqx-0wd9a,morgenkaffee.cixk7pmyj001532p66l2q8q9w-5klhf,morgenkaffee.cixke4lmt001a2qnyd9jzif5o-56s5k,morgenkaffee.cixkc73zu000y2wrskryqy0rd-28e01,morgenkaffee.cixjlko75000f2qny2a4kbuz1-19d9l",
@@ -27,20 +27,20 @@
       ],
       "coordinates": [
         [
-          -13,
-          57
+          -16,
+          61
         ],
         [
-          10,
-          57
+          8.5,
+          61
         ],
         [
-          10,
-          48
+          8.5,
+          46
         ],
         [
-          -13,
-          48
+          -16,
+          46
         ]
       ]
     }
