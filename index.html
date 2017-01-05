@@ -6,59 +6,48 @@
       <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.29.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.29.0/mapbox-gl.css' rel='stylesheet' />
-    <style>
-        body {
-          margin: 0;
-          padding: 0;
-          color: white;
-        }
-        #map { position:absolute; top:0; bottom:0; width: 70%; z-index: 1; }
-        #info {
-          position:absolute;
-          top:0;
-          right: 0;
-          bottom:0;
-          width: 30%;
-          z-index: 2;
-          background-color: #121112;
-          padding: 10px;
-        }
-        h1 {
-          color: hsl(0, 0%, 65%);
-          text-shadow: 0 0 5px rgba(0,0,0,0.5);
-        }
-        .sprite {
-          background: url("https://api.mapbox.com/styles/v1/morgenkaffee/cixjlbrf200392rrlmzxufs82/sprite@2x.png?access_token=pk.eyJ1IjoibW9yZ2Vua2FmZmVlIiwiYSI6IjIzcmN0NlkifQ.0LRTNgCc-envt9d5MzR75w") no-repeat;
-          display: inline-block;
-        }
-        .fire {
-          width: 38px;
-          height: 38px;
-          background-position-x: -462px;
-          background-position-y: -128px;
-        }
-        .base-1 {
-          width: 42px;
-          height: 42px;
-          background-position-x: -84px;
-          background-position-y: -128px;
-        }
-    </style>
+    <link href='/style.css' rel='stylesheet' />
 </head>
 <body>
 
 <div id="map"></div>
 <div id="info">
-  <h1>Battle of Britain</h1>
+  <div>
+    <h1 class="title">Battle of Britain</h1>
+    <a class="title-read-more" href="https://en.wikipedia.org/wiki/Battle_of_Britain">Read more</a>
+  </div>
   <p>
     In the Battle of Britain the RAF defended the UK against the Germain Air Force attacks.
-    <div>
-      <div class="sprite fire"></div>
-      <span>Bombed Towns</span>
+
+    <div class="legend-item">
+      <div class="legend-icon">
+        <img src="/icons/fire-station-15.svg" />
+      </div>
+      <div class="legend-name">Bombed Town</div>
     </div>
-    <div>
-      <div class="sprite base-1"></div>
-      <span>British Fighter Base</span>
+    <div class="legend-item">
+      <div class="legend-icon">
+        <img src="/icons/britain-fighter-base-15.svg" />
+      </div>
+      <div class="legend-name">British Fighter Base</div>
+    </div>
+    <div class="legend-item">
+      <div class="legend-icon">
+        <img src="/icons/german-fighter-base-15.svg" />
+      </div>
+      <div class="legend-name">German Fighter Base</div>
+    </div>
+    <div class="legend-item">
+      <div class="legend-icon">
+        <img src="/icons/german-bomber-base-15.svg" />
+      </div>
+      <div class="legend-name">German Bomber Base</div>
+    </div>
+    <div class="legend-item">
+      <div class="legend-icon">
+        <img src="/icons/radar-station-15.svg" />
+      </div>
+      <div class="legend-name">Radar Station</div>
     </div>
   </p>
 </div>
@@ -70,12 +59,13 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: '/style.json',
     maxBounds: [
-      [ -7, 48],
-      [ 4, 56 ]
+      [ -10, 48],
+      [ 7, 56 ]
     ],
-    minZoom: 6,
-    maxZoom: 8.5,
+    minZoom: 5.6,
+    maxZoom: 8.5
 });
+map.addControl(new mapboxgl.NavigationControl());
 </script>
 
 
