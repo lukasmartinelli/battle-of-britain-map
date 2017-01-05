@@ -12,6 +12,14 @@ to create beautiful historic maps!
 The smoke video contained in the `video` folder is used as base layer to create a nice dynamic effect.
 For the water and waterways the Mapbox Streets vector data source has been used (although you could use any vector tileset for this). All other features were created with the Mapbox dataset editor.
 
+The datasets have been exported from Mapbox Studio as GeoJSON and are available in the `datasets` directory.
+
+- [`battle_of_britain_radar.geojson`](/datasets/battle_of_britain_radar.geojson): Radar reach linestrings and radar station points
+- [`battle_of_britain_bombed_towns.geojson`](/datasets/battle_of_britain_bombed_towns.geojson): Bombed towns points
+- [`battle_of_britain_geonames.geojson`](/datasets/battle_of_britain_geonames.geojson): Important geographic country, city and sea names.
+- [`battle_of_britain_command_groups.geojson`](/datasets/battle_of_britain_command_groups.geojson): Zones and names of the reponsible command groups for an area.
+- [`battle_of_britain_fighter_bases.geojson`](/datasets/battle_of_britain_fighter_bases.geojson): Fighter and bomber bases of the Germans and Brits.
+
 ## Edit the Style
 
 Use the [Maputnik CLI](https://github.com/maputnik/editor) to edit and develop the style.

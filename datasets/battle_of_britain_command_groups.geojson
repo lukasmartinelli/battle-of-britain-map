@@ -1,0 +1,246 @@
+﻿{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "command_group",
+        "name": "Luftflotte 3"
+      },
+      "geometry": {
+        "coordinates": [
+          0.921696,
+          55.402127
+        ],
+        "type": "Point"
+      },
+      "id": "11942e06767c84cedca26b6bda410fd8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "command_group",
+        "name": "Fighter Command Group 10"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.620892,
+          51.114429
+        ],
+        "type": "Point"
+      },
+      "id": "12a0b68ce7f903b07acde6750d467f56"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "command_group",
+        "name": "Fighter Command Group 11"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.792978,
+          51.255119
+        ],
+        "type": "Point"
+      },
+      "id": "22144137a7089c13dd9794daeea6a1e1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "group_border"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -4.691749,
+            52.180095
+          ],
+          [
+            -1.500878,
+            52.119664
+          ],
+          [
+            -0.945487,
+            51.917178
+          ],
+          [
+            -0.159023,
+            51.918838
+          ],
+          [
+            0.001514,
+            52.001685
+          ],
+          [
+            0.290938,
+            52.036438
+          ],
+          [
+            0.646814,
+            52.11933
+          ],
+          [
+            1.683523,
+            52.430344
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "25678157b53dfe28dba4c3df5c064e1b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "command_group",
+        "name": "Luftflotte 3"
+      },
+      "geometry": {
+        "coordinates": [
+          1.492427,
+          49.080705
+        ],
+        "type": "Point"
+      },
+      "id": "4582092ee61b448b5af9b93d6ad0ddef"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "group_border"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            0.714525,
+            49.802989
+          ],
+          [
+            4.920313,
+            49.017084
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "8b76671d2c6657fccf4b297502264e2f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "command_group",
+        "name": "Fighter Command Group 13"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.004089,
+          54.367605
+        ],
+        "type": "Point"
+      },
+      "id": "c277539e552808349be01012e45b4643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "command_group",
+        "name": "Luftflotte 2"
+      },
+      "geometry": {
+        "coordinates": [
+          3.975932,
+          49.930395
+        ],
+        "type": "Point"
+      },
+      "id": "c7fe1dfdf8b4f43c480c2e7218b1266a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "group_border"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.981824,
+            51.914805
+          ],
+          [
+            -1.024008,
+            51.7684
+          ],
+          [
+            -1.143931,
+            51.660941
+          ],
+          [
+            -1.006232,
+            51.532057
+          ],
+          [
+            -1.241892,
+            51.306771
+          ],
+          [
+            -1.544384,
+            51.009899
+          ],
+          [
+            -1.759411,
+            50.74072
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "d1fc7553894d2d6153e567242f9d661c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fighter Command Group 12",
+        "type": "command_group"
+      },
+      "geometry": {
+        "coordinates": [
+          -1.12641,
+          52.660467
+        ],
+        "type": "Point"
+      },
+      "id": "d7263d29022df1e5729cac6b46a299b3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "group_border"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -3.016945,
+            53.587309
+          ],
+          [
+            -2.665908,
+            53.599895
+          ],
+          [
+            -2.292397,
+            53.611769
+          ],
+          [
+            -1.062354,
+            53.662695
+          ],
+          [
+            -0.029821,
+            53.79031
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "fdd2d6dcf8bf088fd95400a650c512d7"
+    }
+  ],
+  "type": "FeatureCollection"
+}

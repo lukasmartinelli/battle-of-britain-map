@@ -1,0 +1,1237 @@
+﻿{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -45
+      },
+      "geometry": {
+        "coordinates": [
+          3.192187,
+          50.778711
+        ],
+        "type": "Point"
+      },
+      "id": "06464af601563f1729a3f170cb054e0c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 160
+      },
+      "geometry": {
+        "coordinates": [
+          -2.346646,
+          50.736018
+        ],
+        "type": "Point"
+      },
+      "id": "123a12af6052915a3a6512445bc87d33"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 90
+      },
+      "geometry": {
+        "coordinates": [
+          -3.36332,
+          55.939997
+        ],
+        "type": "Point"
+      },
+      "id": "128a54b4d096babaef40332012dcf3c2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 160
+      },
+      "geometry": {
+        "coordinates": [
+          0.685847,
+          51.199648
+        ],
+        "type": "Point"
+      },
+      "id": "12b3ea257886ff8fb00ff9a83e7e869d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -35
+      },
+      "geometry": {
+        "coordinates": [
+          3.433321,
+          49.381181
+        ],
+        "type": "Point"
+      },
+      "id": "12ddff77b1a80e7bed9441e57671d805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -15
+      },
+      "geometry": {
+        "coordinates": [
+          1.054687,
+          48.753581
+        ],
+        "type": "Point"
+      },
+      "id": "186563d606f9f34189ada25a8968a414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 160
+      },
+      "geometry": {
+        "coordinates": [
+          0.948779,
+          51.023572
+        ],
+        "type": "Point"
+      },
+      "id": "1a49cca8195d51359f20d5912351bae6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 90
+      },
+      "geometry": {
+        "coordinates": [
+          -1.522789,
+          54.347382
+        ],
+        "type": "Point"
+      },
+      "id": "1d79609f50980e34dfb7ea9a59a72fc4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 160
+      },
+      "geometry": {
+        "coordinates": [
+          0.580673,
+          51.549788
+        ],
+        "type": "Point"
+      },
+      "id": "1da1b891bd766faa7187014472f81d1c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 180
+      },
+      "geometry": {
+        "coordinates": [
+          -1.189741,
+          50.835757
+        ],
+        "type": "Point"
+      },
+      "id": "24c86ba64d31277a7dfe92f2dd84e52a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -0.599493,
+          47.985129
+        ],
+        "type": "Point"
+      },
+      "id": "252f74909ed63d51c1fb2883034c1772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 180
+      },
+      "geometry": {
+        "coordinates": [
+          -0.576231,
+          50.824685
+        ],
+        "type": "Point"
+      },
+      "id": "2b2ced3d2c3b333c5eb474ddabd6f0ae"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 180
+      },
+      "geometry": {
+        "coordinates": [
+          -0.208125,
+          51.549788
+        ],
+        "type": "Point"
+      },
+      "id": "33a83aec128c2b801860be610d2b4fb2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -30
+      },
+      "geometry": {
+        "coordinates": [
+          2.7,
+          49.694924
+        ],
+        "type": "Point"
+      },
+      "id": "3496dc0441e4097987ecbe80a8bc27f0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 160
+      },
+      "geometry": {
+        "coordinates": [
+          0.370327,
+          51.385993
+        ],
+        "type": "Point"
+      },
+      "id": "3b061dbeebb50f30e9a7ace0bfc0dd41"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -1.232033,
+          48.017686
+        ],
+        "type": "Point"
+      },
+      "id": "3b2fedffa97079673799d5ccc136889e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "fighter_base",
+        "nation": "germany",
+        "angle": -45
+      },
+      "geometry": {
+        "coordinates": [
+          3.707009,
+          51.304421
+        ],
+        "type": "Point"
+      },
+      "id": "413385117fe9a055d7797404d374c001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -50
+      },
+      "geometry": {
+        "coordinates": [
+          4.380468,
+          50.987205
+        ],
+        "type": "Point"
+      },
+      "id": "44770b53d4bac65ee234ea429731a3f1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -1.65778,
+          48.04209
+        ],
+        "type": "Point"
+      },
+      "id": "4704d47f07aeca1836c15331a0b37303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -2.314649,
+          48.455194
+        ],
+        "type": "Point"
+      },
+      "id": "541060fbc933c65006ba9383d9037765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -50
+      },
+      "geometry": {
+        "coordinates": [
+          4.626562,
+          50.880856
+        ],
+        "type": "Point"
+      },
+      "id": "5810ec96ace1b9616fa078b6ba7e9055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -90
+      },
+      "geometry": {
+        "coordinates": [
+          4.802343,
+          52.02005
+        ],
+        "type": "Point"
+      },
+      "id": "5b6c3af604bb5e6283b5f9e2765675cc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -45
+      },
+      "geometry": {
+        "coordinates": [
+          2.439843,
+          50.832032
+        ],
+        "type": "Point"
+      },
+      "id": "5b974b9feab4052521f0dcee838fee69"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 180
+      },
+      "geometry": {
+        "coordinates": [
+          -2.416761,
+          51.473423
+        ],
+        "type": "Point"
+      },
+      "id": "5bf0cf3e4a671beb55ccc89d84188fa8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 120
+      },
+      "geometry": {
+        "coordinates": [
+          -2.416761,
+          52.923684
+        ],
+        "type": "Point"
+      },
+      "id": "6f164fa11b5ab1168bde8e0adf839f25"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": 0
+      },
+      "geometry": {
+        "coordinates": [
+          1.047655,
+          48.549196
+        ],
+        "type": "Point"
+      },
+      "id": "7678a16a677e9ab61f09042128adc2a0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 90
+      },
+      "geometry": {
+        "coordinates": [
+          -1.487732,
+          55.376362
+        ],
+        "type": "Point"
+      },
+      "id": "76ab331d3d379930540d2462ab90058f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 160
+      },
+      "geometry": {
+        "coordinates": [
+          1.351943,
+          51.298395
+        ],
+        "type": "Point"
+      },
+      "id": "76bfab3521f1baa5a5b77dd8e90ca756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 90
+      },
+      "geometry": {
+        "coordinates": [
+          1.369472,
+          52.616133
+        ],
+        "type": "Point"
+      },
+      "id": "7c3267377590e178670415e5286195cb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "fighter_base",
+        "nation": "germany",
+        "angle": 60
+      },
+      "geometry": {
+        "coordinates": [
+          4.197817,
+          51.632007
+        ],
+        "type": "Point"
+      },
+      "id": "827a334a2053d480ea84694196c8b2d2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -45
+      },
+      "geometry": {
+        "coordinates": [
+          2.460937,
+          49.562847
+        ],
+        "type": "Point"
+      },
+      "id": "87dd216c2b9fbaff27be9d3662d979ae"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 180
+      },
+      "geometry": {
+        "coordinates": [
+          -0.138009,
+          51.396931
+        ],
+        "type": "Point"
+      },
+      "id": "87f0ac910ba8d050bf7db2d203aac560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "ngle": 90
+      },
+      "geometry": {
+        "coordinates": [
+          -2.556992,
+          55.979246
+        ],
+        "type": "Point"
+      },
+      "id": "89da5c9881ac3085aab3effd30e4e483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 120
+      },
+      "geometry": {
+        "coordinates": [
+          -1.382558,
+          51.089679
+        ],
+        "type": "Point"
+      },
+      "id": "8a74661bafb747b30f74f8aad75ccd1f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -1.839843,
+          49.520308
+        ],
+        "type": "Point"
+      },
+      "id": "8ad894bdaf557441127778a197e4274a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -30
+      },
+      "geometry": {
+        "coordinates": [
+          2.207812,
+          49.251743
+        ],
+        "type": "Point"
+      },
+      "id": "8dab5e46b95886352ab80ec936ae7090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 180
+      },
+      "geometry": {
+        "coordinates": [
+          -2.118771,
+          51.593367
+        ],
+        "type": "Point"
+      },
+      "id": "9050b3e39c6b2df2a2136acb0456dd05"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "fighter_base",
+        "nation": "germany",
+        "angle": -45
+      },
+      "geometry": {
+        "coordinates": [
+          1.69119,
+          50.463984
+        ],
+        "type": "Point"
+      },
+      "id": "9eb16a1c878aa79ff93bb1819a0d324f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 160
+      },
+      "geometry": {
+        "coordinates": [
+          0.773491,
+          51.385993
+        ],
+        "type": "Point"
+      },
+      "id": "a3fda8a678b2ff3179a87ebea1d73b9a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -15
+      },
+      "geometry": {
+        "coordinates": [
+          1.174218,
+          48.315934
+        ],
+        "type": "Point"
+      },
+      "id": "a41d7b4fbd87c0ce8dcb593ce2eea91b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -45
+      },
+      "geometry": {
+        "coordinates": [
+          1.919531,
+          50.658515
+        ],
+        "type": "Point"
+      },
+      "id": "a517249981ddb9ba54288c1ed863da85"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "fighter_base",
+        "nation": "germany",
+        "angle": 0
+      },
+      "geometry": {
+        "coordinates": [
+          0.271352,
+          49.460453
+        ],
+        "type": "Point"
+      },
+      "id": "a78044a75399ee25bb5fb1b1b2142224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 100
+      },
+      "geometry": {
+        "coordinates": [
+          -5.379139,
+          50.34612
+        ],
+        "type": "Point"
+      },
+      "id": "ae6b21702a4b12a3edf6fbdb789eedbd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "fighter_base",
+        "nation": "germany",
+        "angle": -45
+      },
+      "geometry": {
+        "coordinates": [
+          1.603546,
+          50.764297
+        ],
+        "type": "Point"
+      },
+      "id": "b16f45fbd8fe26c3cf8e199f5bb6b650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -60
+      },
+      "geometry": {
+        "coordinates": [
+          4.816406,
+          51.454006
+        ],
+        "type": "Point"
+      },
+      "id": "b20b4e8b7257b538d7294adfefe090d1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "fighter_base",
+        "nation": "germany",
+        "angle": -45
+      },
+      "geometry": {
+        "coordinates": [
+          2.129412,
+          50.908209
+        ],
+        "type": "Point"
+      },
+      "id": "b2b2b9efa0152145a1376143c2907669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -45
+      },
+      "geometry": {
+        "coordinates": [
+          3.480468,
+          50.654057
+        ],
+        "type": "Point"
+      },
+      "id": "b98130d4d703c73843b94a31adbe698c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "fighter_base",
+        "nation": "germany",
+        "angle": 0
+      },
+      "geometry": {
+        "coordinates": [
+          0.14865,
+          49.585618
+        ],
+        "type": "Point"
+      },
+      "id": "bba3dad15558c09e91f8e44d4bc819d5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -45
+      },
+      "geometry": {
+        "coordinates": [
+          3.220312,
+          50.520132
+        ],
+        "type": "Point"
+      },
+      "id": "be8ecf12bd6f4ea11ece923eda637c2c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "fighter_base",
+        "nation": "germany",
+        "angle": -45
+      },
+      "geometry": {
+        "coordinates": [
+          1.726248,
+          50.675515
+        ],
+        "type": "Point"
+      },
+      "id": "bee989946a7a2a0d4adb25611910baef"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -50
+      },
+      "geometry": {
+        "coordinates": [
+          3.888281,
+          50.818707
+        ],
+        "type": "Point"
+      },
+      "id": "c06bcbc8816a554d51c33e50b25e09b3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 160
+      },
+      "geometry": {
+        "coordinates": [
+          0.195038,
+          52.145347
+        ],
+        "type": "Point"
+      },
+      "id": "c60485af896385a8b498b70c07260cf6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -30
+      },
+      "geometry": {
+        "coordinates": [
+          2.355468,
+          48.577115
+        ],
+        "type": "Point"
+      },
+      "id": "c7e0e369451e1e48c16a88f96af18e6a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -30
+      },
+      "geometry": {
+        "coordinates": [
+          2.158593,
+          48.306582
+        ],
+        "type": "Point"
+      },
+      "id": "ca471847cfb6c9b3ea54b42ed756fd93"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 180
+      },
+      "geometry": {
+        "coordinates": [
+          -1.785722,
+          51.199648
+        ],
+        "type": "Point"
+      },
+      "id": "cbc956899a3043dd42be3550a1e60849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": 0
+      },
+      "geometry": {
+        "coordinates": [
+          0.667968,
+          48.987138
+        ],
+        "type": "Point"
+      },
+      "id": "ccea0d3719aa56f2f0e99d433c4501b5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 120
+      },
+      "geometry": {
+        "coordinates": [
+          -4.257292,
+          51.843138
+        ],
+        "type": "Point"
+      },
+      "id": "cd211fef521ab0d9795daebe198d3866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -50
+      },
+      "geometry": {
+        "coordinates": [
+          4.865625,
+          50.752027
+        ],
+        "type": "Point"
+      },
+      "id": "d97772f5d6b875ee0e079b9ff9e53ac4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 160
+      },
+      "geometry": {
+        "coordinates": [
+          0.212567,
+          51.636904
+        ],
+        "type": "Point"
+      },
+      "id": "d9f46337bec57cd567cf6b197c15e03e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 180
+      },
+      "geometry": {
+        "coordinates": [
+          1.299357,
+          52.037649
+        ],
+        "type": "Point"
+      },
+      "id": "dc858a41eda5214b16e1e6063fa2dcb9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "anlge": -30
+      },
+      "geometry": {
+        "coordinates": [
+          2.144531,
+          49.090847
+        ],
+        "type": "Point"
+      },
+      "id": "dfb9d3cad4f2c45ba89cd45938a5de93"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -15
+      },
+      "geometry": {
+        "coordinates": [
+          0.871874,
+          48.867027
+        ],
+        "type": "Point"
+      },
+      "id": "e156b48dbbc5bcfd32faf9fc7d95014a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 160
+      },
+      "geometry": {
+        "coordinates": [
+          0.387856,
+          51.243562
+        ],
+        "type": "Point"
+      },
+      "id": "e1c6dc01cb7adce68ffb966a44cf8e10"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 120
+      },
+      "geometry": {
+        "coordinates": [
+          -1.470203,
+          51.254534
+        ],
+        "type": "Point"
+      },
+      "id": "e3c1db7c329b5a0452210a36c3e71b77"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -40
+      },
+      "geometry": {
+        "coordinates": [
+          3.128906,
+          50.052906
+        ],
+        "type": "Point"
+      },
+      "id": "e3d0118ccb272bb62a974eeb10ae43ad"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -45
+      },
+      "geometry": {
+        "coordinates": [
+          2.889843,
+          50.551416
+        ],
+        "type": "Point"
+      },
+      "id": "ea9fc4cb257be5e497f339da1f73544e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -40
+      },
+      "geometry": {
+        "coordinates": [
+          2.5875,
+          50.016775
+        ],
+        "type": "Point"
+      },
+      "id": "ebdbdc09ee44193e4256942744b83301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": 45
+      },
+      "geometry": {
+        "coordinates": [
+          1.715624,
+          49.930856
+        ],
+        "type": "Point"
+      },
+      "id": "ed1fd562ac2e2437052e006bddf75f42"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 160
+      },
+      "geometry": {
+        "coordinates": [
+          1.08901,
+          51.056638
+        ],
+        "type": "Point"
+      },
+      "id": "f01fe8d8c4094faa0c0c2c98b7ad0c1b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -1.523437,
+          49.647949
+        ],
+        "type": "Point"
+      },
+      "id": "f0b9e5e477d7c7913f427e9e7c990f53"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 160
+      },
+      "geometry": {
+        "coordinates": [
+          -0.856692,
+          50.902131
+        ],
+        "type": "Point"
+      },
+      "id": "f6c5d245fd64b6d4bd0307904df85ff9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": -45
+      },
+      "geometry": {
+        "coordinates": [
+          1.835156,
+          50.093487
+        ],
+        "type": "Point"
+      },
+      "id": "f7b62c30728bb96336a35c334610f40b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "fighter_base",
+        "nation": "germany",
+        "angle": -45
+      },
+      "geometry": {
+        "coordinates": [
+          1.550959,
+          50.608819
+        ],
+        "type": "Point"
+      },
+      "id": "fa9a519e15857ee300015d78519f0902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 120
+      },
+      "geometry": {
+        "coordinates": [
+          -3.415907,
+          50.835757
+        ],
+        "type": "Point"
+      },
+      "id": "fba761bea9958596cc6f96ec92c534f9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "bomber_base",
+        "nation": "germany",
+        "angle": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -0.370312,
+          49.149182
+        ],
+        "type": "Point"
+      },
+      "id": "fbaedba01bc1a1f1beee1854cf8916e2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nation": "britain",
+        "type": "fighter_base",
+        "angle": 90
+      },
+      "geometry": {
+        "coordinates": [
+          -0.313298,
+          53.823003
+        ],
+        "type": "Point"
+      },
+      "id": "fcf6bdd50d088cdcdc5119a39a32b41c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "fighter_base",
+        "nation": "germany",
+        "angle": -45
+      },
+      "geometry": {
+        "coordinates": [
+          1.778834,
+          50.786466
+        ],
+        "type": "Point"
+      },
+      "id": "fddbc9ee73e188510e9a1171a982dc4d"
+    }
+  ],
+  "type": "FeatureCollection"
+}

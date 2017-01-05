@@ -1,0 +1,215 @@
+﻿{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ipswich"
+      },
+      "geometry": {
+        "coordinates": [
+          1.150593,
+          52.05635
+        ],
+        "type": "Point"
+      },
+      "id": "008b3936f92e571f35d1bfa29e930c2e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plymouth"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.142393,
+          50.370544
+        ],
+        "type": "Point"
+      },
+      "id": "0d45a0e8a8870882c03b19922d8fe1f6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glasgow"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.245036,
+          55.853219
+        ],
+        "type": "Point"
+      },
+      "id": "5a8d2ba0b945e0d4b2f38c1335f1e045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cardiff"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.181026,
+          51.479458
+        ],
+        "type": "Point"
+      },
+      "id": "5fea5051bdb44883473bed01aeaf4bb2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Liverpool"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.981202,
+          53.403125
+        ],
+        "type": "Point"
+      },
+      "id": "69b83f6814e3f59ce0d4361074919e9c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Swansea"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.156189,
+          51.600383
+        ],
+        "type": "Point"
+      },
+      "id": "district.10500477330014300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nottingham"
+      },
+      "geometry": {
+        "coordinates": [
+          -1.168829,
+          52.953977
+        ],
+        "type": "Point"
+      },
+      "id": "district.2299995327980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manchester"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.244559,
+          53.480321
+        ],
+        "type": "Point"
+      },
+      "id": "ef393c406ce36d7ff10038387eadd613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Belfast"
+      },
+      "geometry": {
+        "coordinates": [
+          -5.930553,
+          54.595624
+        ],
+        "type": "Point"
+      },
+      "id": "f2462641efb3a0d27590f3e8da8b4cd5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Exeter"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.5094,
+          50.7168
+        ],
+        "type": "Point"
+      },
+      "id": "place.10813934622180230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "London"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.1257,
+          51.5085
+        ],
+        "type": "Point"
+      },
+      "id": "place.12749102994631530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Portsmouth"
+      },
+      "geometry": {
+        "coordinates": [
+          -1.0912,
+          50.799
+        ],
+        "type": "Point"
+      },
+      "id": "place.3599085739185310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Birmingham"
+      },
+      "geometry": {
+        "coordinates": [
+          -1.8932,
+          52.4759
+        ],
+        "type": "Point"
+      },
+      "id": "place.6250989782052040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nottingham"
+      },
+      "geometry": {
+        "coordinates": [
+          1.2983,
+          52.6278
+        ],
+        "type": "Point"
+      },
+      "id": "place.6264680203138710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canterbury"
+      },
+      "geometry": {
+        "coordinates": [
+          1.0828,
+          51.2968
+        ],
+        "type": "Point"
+      },
+      "id": "place.6769033798699040"
+    }
+  ],
+  "type": "FeatureCollection"
+}

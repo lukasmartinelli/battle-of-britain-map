@@ -1,0 +1,381 @@
+﻿{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amions",
+        "type": "city",
+        "rank": 2
+      },
+      "geometry": {
+        "coordinates": [
+          2.317579,
+          49.799943
+        ],
+        "type": "Point"
+      },
+      "id": "1c383b7e1427157fb66f112d6c679ec4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Calais",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          1.825465,
+          50.87778
+        ],
+        "type": "Point"
+      },
+      "id": "1e31bdb5b0451c35dd52be6f22c0b153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Le Havre",
+        "type": "city",
+        "rank": 2
+      },
+      "geometry": {
+        "coordinates": [
+          0.080697,
+          49.459457
+        ],
+        "type": "Point"
+      },
+      "id": "21a252854808626cc6a9e6d2b1e393de"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rotterdam",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          4.386696,
+          51.765433
+        ],
+        "type": "Point"
+      },
+      "id": "41bbc4562ba4e460e3e3f9af975beda9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "city",
+        "name": "Paris",
+        "rank": 1
+      },
+      "geometry": {
+        "coordinates": [
+          2.205735,
+          48.727087
+        ],
+        "type": "Point"
+      },
+      "id": "458c48ea654e3509e4e65cbd3b2f85ac"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ireland",
+        "type": "country"
+      },
+      "geometry": {
+        "coordinates": [
+          -7.502335,
+          52.812089
+        ],
+        "type": "Point"
+      },
+      "id": "5e77fa90e164a77e2db57e89652bd6d1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Sea",
+        "type": "sea"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            0.881714,
+            53.713106
+          ],
+          [
+            2.648851,
+            53.660587
+          ],
+          [
+            3.666632,
+            53.594831
+          ],
+          [
+            4.773889,
+            53.502598
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "65652e3173e2d03957e8db58cda7610b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rennes",
+        "type": "city",
+        "rank": 2
+      },
+      "geometry": {
+        "coordinates": [
+          -1.820653,
+          48.118468
+        ],
+        "type": "Point"
+      },
+      "id": "6c70686b95229988f73c50655c3298c2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amsterdam",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          4.957101,
+          52.226817
+        ],
+        "type": "Point"
+      },
+      "id": "708638b127519b51e553a4d46d5d95c1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "France",
+        "type": "country"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.31972,
+          48.531317
+        ],
+        "type": "Point"
+      },
+      "id": "8058890b06689725517433d0b1adb44c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Scotland",
+        "type": "country"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.361881,
+          55.311446
+        ],
+        "type": "Point"
+      },
+      "id": "8a6284cd15a520755d15bd9c891ae4dc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "England",
+        "type": "country"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.044341,
+          53.068219
+        ],
+        "type": "Point"
+      },
+      "id": "8e1700dd21d7a8ca4eccd7f41b8f2e3d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Belgium",
+        "type": "country"
+      },
+      "geometry": {
+        "coordinates": [
+          3.696811,
+          50.226469
+        ],
+        "type": "Point"
+      },
+      "id": "96282aaed480dac9d8cc511a9312c5d2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "N. Ireland",
+        "type": "country"
+      },
+      "geometry": {
+        "coordinates": [
+          -6.752448,
+          54.653636
+        ],
+        "type": "Point"
+      },
+      "id": "9ba297fd5702bf29dd16bae2f12d095f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Irish Sea",
+        "type": "sea"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -5.896848,
+            52.523481
+          ],
+          [
+            -5.742618,
+            52.748333
+          ],
+          [
+            -5.60998,
+            52.919869
+          ],
+          [
+            -5.451123,
+            53.105523
+          ],
+          [
+            -5.353959,
+            53.223932
+          ],
+          [
+            -5.230574,
+            53.364053
+          ],
+          [
+            -5.082514,
+            53.489035
+          ],
+          [
+            -4.823407,
+            53.664854
+          ],
+          [
+            -4.613654,
+            53.774371
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "b024a772fa59324a2f211756da3afbcd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lille",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          2.966275,
+          50.445306
+        ],
+        "type": "Point"
+      },
+      "id": "bb38aeb674b79ae032ba4894a1b5e7ed"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "city",
+        "name": "Antwerp",
+        "rank": 2
+      },
+      "geometry": {
+        "coordinates": [
+          4.375511,
+          51.10306
+        ],
+        "type": "Point"
+      },
+      "id": "c816f228576ef71b70c71bb425e6c797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "city",
+        "name": "Cherbourg",
+        "rank": 2
+      },
+      "geometry": {
+        "coordinates": [
+          -1.695622,
+          49.609844
+        ],
+        "type": "Point"
+      },
+      "id": "ce14dd913bb394e3cdc6a01ab07e543e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "English Channel",
+        "type": "sea"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -3.692885,
+            49.686411
+          ],
+          [
+            -2.686288,
+            49.932372
+          ],
+          [
+            -1.590215,
+            50.133994
+          ],
+          [
+            -0.784937,
+            50.263163
+          ],
+          [
+            0.065077,
+            50.349083
+          ],
+          [
+            0.93746,
+            50.406276
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "d3106eaac1e0d2b81eea78d0f9ce87e3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wales",
+        "type": "country"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.744372,
+          52.472764
+        ],
+        "type": "Point"
+      },
+      "id": "fe157930072718e769388c3345167650"
+    }
+  ],
+  "type": "FeatureCollection"
+}
