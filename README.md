@@ -5,7 +5,7 @@ to create beautiful historic maps!
 
 **:globe_with_meridians: Check the demo at http://battleofbritain.lukasmartinelli.ch**
 
-![Battle of Britain Map](https://cloud.githubusercontent.com/assets/1288339/21693935/26d97898-d383-11e6-9618-7c5b26dc1001.png)
+[![Battle of Britain Map](https://cloud.githubusercontent.com/assets/1288339/21701568/9453fe7a-d3a6-11e6-9c15-594198569632.png)](http://battleofbritain.lukasmartinelli.ch)
 
 ## How it works
 
