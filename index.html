@@ -14,7 +14,7 @@
 <div id="info">
   <div>
     <h1 class="title">Battle of Britain</h1>
-    <a class="title-read-more" href="https://en.wikipedia.org/wiki/Battle_of_Britain">Read more</a>
+    <a class="title-read-more wiki-link" href="https://en.wikipedia.org/wiki/Battle_of_Britain">Read more</a>
   </div>
   <p>
     In the Battle of Britain the RAF defended the UK against the Germain Air Force attacks.
@@ -50,6 +50,67 @@
       <div class="legend-name">Radar Station</div>
     </div>
   </p>
+  <h2>Bombed Towns</h2>
+  <p>Click on the <span class="city-link"><img class="city-icon" src="/icons/bomb-15.svg">bombed town</span> to go to the location</p>
+  <div class="city-item">
+    <a class="city-link" href="#7.5/51.600383/-4.156189"><img class="city-icon" src="/icons/bomb-15.svg">Swansea</a>
+    in the
+    <a class="wiki-link" href="https://en.wikipedia.org/wiki/Swansea_Blitz">Swansea Blitz</a>
+  </div>
+
+  <div class="city-item">
+    <a class="city-link" href="#7.5/50.370544/-4.142393"><img class="city-icon" src="/icons/bomb-15.svg">Plymouth</a>
+    in the
+    <a class="wiki-link" href="https://en.wikipedia.org/wiki/Plymouth_Blitz">Plymouth Blitz</a>
+  </div>
+  <div class="city-item">
+    <a class="city-link" href="#7.5/52.05635/1.150593"><img class="city-icon" src="/icons/bomb-15.svg">Ipswich</a>
+  </div>
+  <div class="city-item">
+    <a class="city-link" href="#7.5/51.2968/1.0828"><img class="city-icon" src="/icons/bomb-15.svg">Canterbury</a>
+    in the
+    <a class="wiki-link" href="https://en.wikipedia.org/wiki/Baedeker_Blitz">Baedeker Blitz</a>
+  </div>
+  <div class="city-item">
+    <a class="city-link" href="#7.5/-3.5094/50.7168"><img class="city-icon" src="/icons/bomb-15.svg">Exeter</a>
+    in the
+    <a class="wiki-link" href="https://en.wikipedia.org/wiki/Baedeker_Blitz">Baedeker Blitz</a>
+  </div>
+  <div class="city-item">
+    <a class="city-link" href="#7.5/51.2968/1.0828"><img class="city-icon" src="/icons/bomb-15.svg">York</a>
+    in the
+    <a class="wiki-link" href="https://en.wikipedia.org/wiki/Baedeker_Blitz">Baedeker Blitz</a>
+  </div>
+  <div class="city-item">
+    <a class="city-link" href="#7.5/51.2968/1.0828"><img class="city-icon" src="/icons/bomb-15.svg">Norwich</a>
+    in the
+    <a class="wiki-link" href="https://en.wikipedia.org/wiki/Baedeker_Blitz">Baedeker Blitz</a>
+  </div>
+  <div class="city-item">
+    <a class="city-link" href="#7.5/51.2968/1.0828"><img class="city-icon" src="/icons/bomb-15.svg">Bath</a>
+    in the
+    <a class="wiki-link" href="https://en.wikipedia.org/wiki/Baedeker_Blitz">Baedeker Blitz</a>
+  </div>
+  <div class="city-item">
+    <a class="city-link" href="#7.5/51.479458/-3.181026"><img class="city-icon" src="/icons/bomb-15.svg">Cardiff</a>
+    in the
+    <a class="wiki-link" href="https://en.wikipedia.org/wiki/Cardiff_Blitz">Cardiff Blitz</a>
+  </div>
+  <div class="city-item">
+    <a class="city-link" href="#7.5/53.403125/-2.981202"><img class="city-icon" src="/icons/bomb-15.svg">Liverpool</a>
+    in the
+    <a class="wiki-link" href="https://en.wikipedia.org/wiki/Liverpool_Blitz">Liverpool Blitz</a>
+  </div>
+  <div class="city-item">
+    <a class="city-link" href="#7.5/53.480321/-2.244559"><img class="city-icon" src="/icons/bomb-15.svg">Manchester</a>
+    in the
+    <a class="wiki-link" href="https://en.wikipedia.org/wiki/Manchester_Blitz">Manchester Blitz</a>
+  </div>
+  <div class="city-item">
+    <a class="city-link" href="#7.5/51.5085/-0.1257"><img class="city-icon" src="/icons/bomb-15.svg">London</a>
+    in the
+    <a class="wiki-link" href="https://en.wikipedia.org/wiki/London_Blitz">London Blitz</a>
+  </div>
 </div>
 
 <script>
@@ -66,6 +127,20 @@ var map = new mapboxgl.Map({
     maxZoom: 8.5
 });
 map.addControl(new mapboxgl.NavigationControl());
+window.onhashchange = function() {
+  var hash = window.location.hash.replace('#', '');
+  var parts = hash.split('/');
+  var zoom = parseFloat(parts[0]);
+  var lat = parseFloat(parts[1]);
+  var lon = parseFloat(parts[2]);
+  console.log('Fly to', [lon, lat])
+  map.flyTo({
+    center: [lon, lat],
+    speed: 0.2,
+    curve: 1,
+    zoom: zoom
+  });
+}
 </script>
 
 
