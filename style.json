@@ -438,7 +438,7 @@
       ],
       "layout": {
         "visibility": "visible",
-        "icon-image": "britain-fighter-base-11",
+        "icon-image": "british-fighter-base-11",
         "icon-rotation-alignment": "map",
         "icon-allow-overlap": true,
         "icon-ignore-placement": true,
@@ -549,7 +549,7 @@
         "icon-size": 0.6,
         "icon-allow-overlap": true,
         "icon-ignore-placement": true,
-        "icon-rotation-alignment": "map"
+        "icon-rotation-alignment": "viewport"
       },
       "paint": {
         "icon-opacity": 0.9
@@ -579,7 +579,7 @@
         "icon-size": 0.6,
         "icon-allow-overlap": true,
         "icon-ignore-placement": true,
-        "icon-rotation-alignment": "map"
+        "icon-rotation-alignment": "viewport"
       },
       "paint": {
         "icon-opacity": 0.9
@@ -630,8 +630,8 @@
       "maxzoom": 14,
       "layout": {
         "text-size": 14,
-        "icon-image": "fire-station-15",
-        "icon-rotation-alignment": "map",
+        "icon-image": "bomb-15",
+        "icon-rotation-alignment": "viewport",
         "text-font": {
           "base": 1,
           "stops": [
@@ -655,7 +655,7 @@
           0,
           -0.6
         ],
-        "icon-size": 1.4,
+        "icon-size": 1.2,
         "text-anchor": "bottom",
         "text-pitch-alignment": "viewport",
         "text-field": "{name}",
