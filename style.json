@@ -441,7 +441,9 @@
         "icon-image": "britain-fighter-base-11",
         "icon-rotation-alignment": "map",
         "icon-allow-overlap": true,
-        "icon-ignore-placement": true
+        "icon-ignore-placement": true,
+        "text-rotate": 0,
+        "icon-rotate": 125
       },
       "paint": {}
     },
@@ -479,7 +481,8 @@
         "icon-size": 1,
         "icon-allow-overlap": true,
         "icon-ignore-placement": true,
-        "icon-rotation-alignment": "map"
+        "icon-rotation-alignment": "map",
+        "icon-rotate": -35
       },
       "paint": {}
     },
@@ -517,7 +520,8 @@
         "icon-size": 1.2,
         "icon-allow-overlap": true,
         "icon-ignore-placement": true,
-        "icon-rotation-alignment": "map"
+        "icon-rotation-alignment": "map",
+        "icon-rotate": -30
       },
       "paint": {}
     },
@@ -655,7 +659,10 @@
         "text-anchor": "bottom",
         "text-pitch-alignment": "viewport",
         "text-field": "{name}",
-        "text-max-width": 7
+        "text-max-width": 7,
+        "icon-rotate": 0,
+        "icon-keep-upright": false,
+        "icon-optional": true
       },
       "paint": {
         "text-color": "hsl(0, 0%, 65%)",
@@ -754,7 +761,8 @@
           0
         ],
         "icon-size": 1,
-        "text-max-width": 7
+        "text-max-width": 7,
+        "icon-rotation-alignment": "map"
       },
       "paint": {
         "text-color": "hsl(0, 0%, 65%)",
