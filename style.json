@@ -6,7 +6,8 @@
     "mapbox:type": "default",
     "mapbox:groups": {},
     "mapbox:trackposition": false,
-    "maputnik:access_token": "pk.eyJ1IjoibW9yZ2Vua2FmZmVlIiwiYSI6ImNpeGtxZHdjNzAwMWYzMm55ZndncjU4bDQifQ.Q5LZ4ob5FNjReUdmj3c-_w"
+    "maputnik:access_token": "pk.eyJ1IjoibW9yZ2Vua2FmZmVlIiwiYSI6ImNpeGtxZHdjNzAwMWYzMm55ZndncjU4bDQifQ.Q5LZ4ob5FNjReUdmj3c-_w",
+    "maputnik:renderer": "mbgljs"
   },
   "center": [
     5.5,
@@ -443,7 +444,10 @@
         "icon-allow-overlap": true,
         "icon-ignore-placement": true,
         "text-rotate": 0,
-        "icon-rotate": 125
+        "icon-rotate": {
+          "type": "identity",
+          "property": "angle"
+        }
       },
       "paint": {}
     },
@@ -482,7 +486,10 @@
         "icon-allow-overlap": true,
         "icon-ignore-placement": true,
         "icon-rotation-alignment": "map",
-        "icon-rotate": -35
+        "icon-rotate": {
+          "type": "identity",
+          "property": "angle"
+        }
       },
       "paint": {}
     },
@@ -521,7 +528,10 @@
         "icon-allow-overlap": true,
         "icon-ignore-placement": true,
         "icon-rotation-alignment": "map",
-        "icon-rotate": -30
+        "icon-rotate": {
+          "type": "identity",
+          "property": "angle"
+        }
       },
       "paint": {}
     },
