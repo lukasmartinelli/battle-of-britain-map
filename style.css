@@ -16,6 +16,11 @@ body {
 a {
   color: #e3e3e3;
 }
+
+.github-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .city-link {
   color: #853535;
 }
