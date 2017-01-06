@@ -3,7 +3,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Ipswich"
+        "name": "Ipswich",
+          "raidUrl": "https://en.wikipedia.org/wiki/Swansea_Blitz",
+          "raidName": "Swansea Blitz"
       },
       "geometry": {
         "coordinates": [
@@ -17,7 +19,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Plymouth"
+        "name": "Plymouth",
+      "raidUrl": "https://en.wikipedia.org/wiki/Plymouth_Blitz",
+      "raidName": "Plymouth Blitz"
       },
       "geometry": {
         "coordinates": [
@@ -45,7 +49,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Cardiff"
+        "name": "Cardiff",
+      "raidUrl": "https://en.wikipedia.org/wiki/Cardiff_Blitz",
+      "raidName": "Cardiff Blitz"
       },
       "geometry": {
         "coordinates": [
@@ -101,7 +107,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Manchester"
+        "name": "Manchester",
+      "raidUrl": "https://en.wikipedia.org/wiki/Manchester_Blitz",
+      "raidName": "Manchester Blitz"
       },
       "geometry": {
         "coordinates": [
@@ -129,7 +137,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Exeter"
+        "name": "Exeter",
+      "raidUrl": "https://en.wikipedia.org/wiki/Baedeker_Blitz",
+      "raidName": "Baedeker Blitz"
       },
       "geometry": {
         "coordinates": [
@@ -143,7 +153,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "London"
+        "name": "London",
+      "raidUrl": "https://en.wikipedia.org/wiki/London_Blitz",
+      "raidName": "London Blitz"
       },
       "geometry": {
         "coordinates": [
@@ -199,7 +211,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Canterbury"
+        "name": "Canterbury",
+      "raidUrl": "https://en.wikipedia.org/wiki/Baedeker_Blitz",
+      "raidName": "Baedeker Blitz"
       },
       "geometry": {
         "coordinates": [
