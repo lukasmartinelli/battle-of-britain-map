@@ -583,7 +583,8 @@
         "icon-size": 0.8,
         "icon-allow-overlap": true,
         "icon-ignore-placement": true,
-        "icon-rotation-alignment": "viewport"
+        "icon-rotation-alignment": "viewport",
+        "symbol-spacing": 1
       },
       "paint": {
         "icon-opacity": 0.9
@@ -652,7 +653,11 @@
         "text-field": "{name}",
         "text-max-width": 10,
         "text-pitch-alignment": "map",
-        "icon-rotation-alignment": "map"
+        "icon-rotation-alignment": "map",
+        "text-ignore-placement": false,
+        "text-allow-overlap": true,
+        "text-padding": 0,
+        "symbol-spacing": 1
       },
       "paint": {
         "text-color": "rgba(4, 3, 3, 1)",
